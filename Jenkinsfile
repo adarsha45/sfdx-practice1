@@ -59,12 +59,12 @@ node{
         //     }
         // }
 
-        // stage('View all orgs'){
-        //     rc=command "sfdx force:org:list"
-        //     if (rc!=0){
-        //         error 'Unable to view all orgs.'
-        //     }
-        // }
+         stage('View all orgs'){
+             rc=command "sfdx force:org:list"
+             if (rc!=0){
+                 error 'Unable to view all orgs.'
+             }
+         }
         
         // // stage ('Delete scratch org'){
         // //     rc = command "sfdx force:org:delete -u installorg -p"
