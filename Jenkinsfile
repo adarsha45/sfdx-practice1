@@ -23,27 +23,27 @@ node{
     }
 
     withCredentials([file(credentialsId: SERVER_KEY_CREDENTALS_ID, variable: 'server_key_file')]) {
-         stage('Install sfdx scanner'){
-             rc = command "sfdx plugins:install @salesforce/sfdx-scanner"
-             if (rc!=0){
-                 error 'Unable to install scanner'
-             }
-         }
+    //      stage('Install sfdx scanner'){
+    //          rc = command "sfdx plugins:install @salesforce/sfdx-scanner"
+    //          if (rc!=0){
+    //              error 'Unable to install scanner'
+    //          }
+    //      }
 
-    //Check for eslint and pmd 
-        stage('Check for Violation rule for lwc'){
-            rc= command 'sfdx scanner:run --target "**/lwc/**" --format "html"'
-            if(rc!=0){
-                error 'Unable to check violation for LWC'
-            }
-        }
+    // //Check for eslint and pmd 
+    //     stage('Check for Violation rule for lwc'){
+    //         rc= command 'sfdx scanner:run --target "**/lwc/**" --format "html"'
+    //         if(rc!=0){
+    //             error 'Unable to check violation for LWC'
+    //         }
+    //     }
 
-        stage('Check for Violation rule for apex classes'){
-            rc= command 'sfdx scanner:run --target "**/classes/**" --format "html"'
-            if(rc!=0){
-                error 'Unable to check violation for apex classes'
-            }
-        }
+    //     stage('Check for Violation rule for apex classes'){
+    //         rc= command 'sfdx scanner:run --target "**/classes/**" --format "html"'
+    //         if(rc!=0){
+    //             error 'Unable to check violation for apex classes'
+    //         }
+    //     }
 
         // stage('Logout from devhub'){
         //     rc=command "sfdx force:auth:logout -p -u ${SF_USERNAME}"
