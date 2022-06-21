@@ -23,12 +23,12 @@ node{
     }
 
     withCredentials([file(credentialsId: SERVER_KEY_CREDENTALS_ID, variable: 'server_key_file')]) {
-        // stage('Install sfdx scanner'){
-        //     rc = command "sfdx plugins:install @salesforce/sfdx-scanner"
-        //     if (rc!=0){
-        //         error 'Unable to install scanner'
-        //     }
-        // }
+         stage('Install sfdx scanner'){
+             rc = command "sfdx plugins:install @salesforce/sfdx-scanner"
+             if (rc!=0){
+                 error 'Unable to install scanner'
+             }
+         }
 
     //Check for eslint and pmd 
         stage('Check for Violation rule for lwc'){
@@ -52,12 +52,12 @@ node{
         //     }
         // }
         
-        // stage('Authorize DevHub') {
-        //     rc = command "sfdx force:auth:jwt:grant --instanceurl ${SF_INSTANCE_URL} --clientid ${SF_CONSUMER_KEY} --username ${SF_USERNAME} --jwtkeyfile ${server_key_file} --setdefaultdevhubusername --setalias ${SF_DEV_HUB_ALIAS}"
-        //     if (rc != 0) {
-        //         error 'Salesforce dev hub org authorization failed.'
-        //     }
-        // }
+         stage('Authorize DevHub') {
+             rc = command "sfdx force:auth:jwt:grant --instanceurl ${SF_INSTANCE_URL} --clientid ${SF_CONSUMER_KEY} --username ${SF_USERNAME} --jwtkeyfile ${server_key_file} --setdefaultdevhubusername --setalias ${SF_DEV_HUB_ALIAS}"
+             if (rc != 0) {
+                 error 'Salesforce dev hub org authorization failed.'
+             }
+         }
 
          stage('View all orgs'){
              rc=command "sfdx force:org:list"
