@@ -71,30 +71,30 @@ node{
         // // }
 
 
-        stage('Create Test Scratch Org'){
-            try{
-                rc = command "sfdx force:org:create --targetdevhubusername ${SF_DEV_HUB_ALIAS} --setdefaultusername --definitionfile config/project-scratch-def.json --setalias ${SF_SCRATCH_ALIAS} --wait 10 --durationdays 1"
-                if (rc != 0){
-                    error 'Salesforce test scratch org creation failed.'
-                }
-            }
-            catch (err){
-                echo '${err}'
-            }
-        }
-        stage('Generate password for test scratch org'){
-            rc = command "sfdx force:user:password:generate --targetdevhubusername ${SF_USERNAME} --targetusername ciorg --onbehalfof ${SF_SCRATCH_ALIAS}"
-            if(rc!=0){
-                error 'Cannot generate password for scratch org'
-            }
-        }
+        // stage('Create Test Scratch Org'){
+        //     try{
+        //         rc = command "sfdx force:org:create --targetdevhubusername ${SF_DEV_HUB_ALIAS} --setdefaultusername --definitionfile config/project-scratch-def.json --setalias ${SF_SCRATCH_ALIAS} --wait 10 --durationdays 1"
+        //         if (rc != 0){
+        //             error 'Salesforce test scratch org creation failed.'
+        //         }
+        //     }
+        //     catch (err){
+        //         echo '${err}'
+        //     }
+        // }
+        // stage('Generate password for test scratch org'){
+        //     rc = command "sfdx force:user:password:generate --targetdevhubusername ${SF_USERNAME} --targetusername ciorg --onbehalfof ${SF_SCRATCH_ALIAS}"
+        //     if(rc!=0){
+        //         error 'Cannot generate password for scratch org'
+        //     }
+        // }
 
-        stage('Display scratch org'){
-            rc = command "sfdx force:org:display --targetusername ciorg"
-            if (rc!=0){
-                error 'Canot display password for scratch org'
-            }
-        }
+        // stage('Display scratch org'){
+        //     rc = command "sfdx force:org:display --targetusername ciorg"
+        //     if (rc!=0){
+        //         error 'Canot display password for scratch org'
+        //     }
+        // }
 
         // stage('Push to Test Scratch Org'){
         //     rc = command "sfdx force:source:push --targetusername ${SF_SCRATCH_ALIAS}"
