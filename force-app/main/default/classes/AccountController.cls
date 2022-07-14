@@ -1,5 +1,5 @@
 public with sharing class AccountController {
-    public static string getAllActiveAccounts() {
-      return 'adfadrasdrasas';
+    public static void ada(){
+System.debug('this is adarsha');
     }
   }
