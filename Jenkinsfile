@@ -1,7 +1,6 @@
 #!groovy 
-
+properties([parameters([booleanParam('use previously success  build value')])])
 import groovy.json.JsonSlurperClassic
-
 node{
     def SF_CONSUMER_KEY=env.SF_CONSUMER_KEY
     def SF_USERNAME=env.SF_USERNAME
