@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexTestSuite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <testClassName>compliancequest.SQX_Test_2804_Inspection_Initiation</testClassName>
+    <testClassName>compliancequest.SQX_Test_2805_Perform_Inspection</testClassName>
+    <testClassName>compliancequest.SQX_Test_2806_Review_Inspection</testClassName>
+    <testClassName>compliancequest.SQX_Test_2807_Void_Inspection</testClassName>
+    <testClassName>compliancequest.SQX_Test_2808_Reopen_Inspection</testClassName>
+    <testClassName>compliancequest.SQX_Test_2812_Close_Inspection</testClassName>
+    <testClassName>compliancequest.SQX_Test_4141_Copy_Org_Fields</testClassName>
+    <testClassName>compliancequest.SQX_Test_Homepage_Source_Inspection</testClassName>
+    <testClassName>compliancequest.SQX_Test_Inspection</testClassName>
+    <testClassName>compliancequest.SQX_Test_NC</testClassName>
+    <testClassName>compliancequest.SQX_Test_ReopenInspection_WithSVP</testClassName>
+    <testClassName>compliancequest.SQX_Test_Void_InspectionWithSVP</testClassName>
+</ApexTestSuite>

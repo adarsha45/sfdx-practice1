@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexTestSuite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <testClassName>SQX_Test_17295_Implem_Request_Extnsion</testClassName>
+    <testClassName>SQX_Test_Action_Extension_Request</testClassName>
+    <testClassName>SQX_Test_Homepage_Source_ItemsToApprove</testClassName>
+    <testClassName>SQX_Test_Extension_Request_Add</testClassName>
+</ApexTestSuite>

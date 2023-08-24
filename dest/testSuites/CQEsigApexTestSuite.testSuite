@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexTestSuite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <testClassName>SQX_Test_OauthEsignatureValidation</testClassName>
+    <testClassName>SQX_Test_1485_Esig_Configuration</testClassName>
+    <testClassName>SQX_Test_1454_Equipment_Change_Status</testClassName>
+    <testClassName>SQX_Test_1463_Calibration_Edit</testClassName>
+    <testClassName>SQX_Test_1469_Equipment_ChangeDate_Esig</testClassName>
+    <testClassName>SQX_Test_3681_Scorm</testClassName>
+    <testClassName>SQX_Test_3682_Scorm_For_Assessment</testClassName>
+    <testClassName>SQX_Test_10132_Scorm_Esig_Policy</testClassName>
+    <testClassName>SQX_Test_Atomic_Transaction</testClassName>
+    <testClassName>SQX_Test_SCORM_eContent</testClassName>
+    <testClassName>SQX_Test_SSO_Response_ReceiverController</testClassName>
+</ApexTestSuite>
