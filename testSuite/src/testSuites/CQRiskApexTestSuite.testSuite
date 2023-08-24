@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexTestSuite xmlns="http://soap.sforce.com/2006/04/metadata">
+  <testClassName>SQX_Test_10905_PreventTaskCompletion</testClassName>
+  <testClassName>SQX_Test_Change_Order_Flow</testClassName>
+  <testClassName>SQX_Test_Homepage_Component_Risk</testClassName>
+  <testClassName>SQX_Test_HomePage_Risk_Treatment</testClassName>
+  <testClassName>SQX_Test_Linked_Risk_Treatment</testClassName>
+  <testClassName>SQX_Test_Risk</testClassName>
+  <testClassName>SQX_Test_Risk_Action_Flow</testClassName>
+  <testClassName>SQX_Test_Risk_Conclusion</testClassName>
+  <testClassName>SQX_Test_Risk_Flow</testClassName>
+  <testClassName>SQX_Test_Risk_Sharing</testClassName>
+  <testClassName>SQX_Test_Risk_Treatment</testClassName>
+  <testClassName>SQX_Test_Risk_Periodic_Review</testClassName>
+  <testClassName>SQX_Test_Risk_Treatment_Chatter</testClassName>
+  <testClassName>SQX_Test_Risk_Void</testClassName>
+  <testClassName>SQX_Test_Risk_Treatment_Flow</testClassName>
+  <testClassName>SQX_Test_Task_Template</testClassName>
+  <testClassName>SQX_Test_Transfer_Org_Scope</testClassName>
+</ApexTestSuite>

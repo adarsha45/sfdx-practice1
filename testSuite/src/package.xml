@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>CQASLTestSuite</members>
+        <members>CQAuditApexTestSuite</members>
+        <members>CQCapaApexTestSuite</members>      
+        <members>CQComplaintApexTestSuite</members>
+        <members>CQControlledDocumentApexTestSuite</members>
+        <members>CQDesignControlsApexTestSuite</members>
+        <members>CQRiskApexTestSuite</members>
+        <members>CQSupplierApexTestSuite</members>
+        <members>CQChangeOrderApexTestSuite</members>
+        <members>CQWhyApexTestSuite</members>     
+        <members>CQFormattedPrintoutTestSuite</members>
+        <members>CQNCCapaApexTestSuite</members> 
+        <members>CQDueDateExtensionApexTestSuite</members>
+        <members>CQInspectionApexTestSuite</members>
+        <members>CQProcessManager</members>
+        <name>ApexTestSuite</name>
+    </types>
+    <version>57.0</version>
+</Package>

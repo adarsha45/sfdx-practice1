@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexTestSuite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <testClassName>SQX_Test_2342_Document_Folder_Management</testClassName>
+    <testClassName>SQX_Test_1984_SetupData_Processor</testClassName>
+    <testClassName>SQX_Test_2481_Doc_Folder_Management</testClassName>
+    <testClassName>SQX_Test_9886_Doc_Folder</testClassName>
+    <testClassName>SQX_Test_Binder_Auto_Save</testClassName>
+    <testClassName>SQX_Test_Binder_Edit</testClassName>
+    <testClassName>SQX_Test_Binder_Clone</testClassName>
+    <testClassName>SQX_Test_Binder_Insert</testClassName>
+    <testClassName>SQX_Test_Binder_Load_Version</testClassName>
+    <testClassName>SQX_Test_Binder_Publish</testClassName>
+    <testClassName>SQX_Test_DynamicQuery</testClassName>
+</ApexTestSuite>
