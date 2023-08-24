@@ -3,6 +3,7 @@
     <types>
         <members>CQAuditApexTestSuite</members>
         <members>CQSupplierApexTestSuite</members>
+        <members>CQEnhancedNbaTestSuiteppp</members>
         <name>ApexTestSuite</name>
     </types>
     <version>57.0</version>
