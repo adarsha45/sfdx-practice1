@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2023-08-18T06:19:27.000Z" hostname="https://speed-energy-5108-dev-ed.scratch.my.salesforce.com" tests="215" failures="0"  errors="0"  time="631.90">
+        <properties>
+            <property name="outcome" value="Successful"/>
+            <property name="testsRan" value="215"/>
+            <property name="passing" value="215"/>
+            <property name="failing" value="0"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="100%"/>
+            <property name="failRate" value="0%"/>
+            <property name="testStartTime" value="Fri Aug 18 2023 12:04:27 PM"/>
+            <property name="testExecutionTime" value="631.90 s"/>
+            <property name="testTotalTime" value="631.90 s"/>
+            <property name="commandTime" value="1.05 s"/>
+            <property name="hostname" value="https://speed-energy-5108-dev-ed.scratch.my.salesforce.com"/>
+            <property name="orgId" value="00D8N000000UxFrUAK"/>
+            <property name="username" value="test-bcvdj08pnkt3@example.com"/>
+            <property name="testRunId" value="7078N00001EfbPJ"/>
+            <property name="userId" value="0058N000004BUHSQA4"/>
+        </properties>
+        <testcase name="givenAnAudit_WhenAuditIs_CheckedOut_AuditCanBeCheckedIn" classname="compliancequest.SQX_Test_2346_Audit_Checkin_Checkout" time="2.38">
+        </testcase>
+        <testcase name="givenAnAudit_WhenAuditIs_CheckedOut_AuditCanBeUndoCheckedout" classname="compliancequest.SQX_Test_2346_Audit_Checkin_Checkout" time="2.28">
+        </testcase>
+        <testcase name="givenAnAudit_WhenAuditIs_CheckedOut_AuditCannotBeEdited" classname="compliancequest.SQX_Test_2346_Audit_Checkin_Checkout" time="2.02">
+        </testcase>
+        <testcase name="givenAnAudit_WhenCheckoutAndCheckinUsingGoogleSheetAfterCheckoutUsingMSExcel_ThenSetSpreadSheetId" classname="compliancequest.SQX_Test_2346_Audit_Checkin_Checkout" time="6.59">
+        </testcase>
+        <testcase name="givenAnActiveAuditProgramAndAudit_WhenAuditIsDirectlyInitiated_AllAuditScopesAreAddedInAudit" classname="compliancequest.SQX_Test_2346_Audit_Checkin_Checkout" time="5.77">
+        </testcase>
+        <testcase name="givenAnAudit_WhenAuditIsCheckedOutMoreThanOnce_ThenMasterCopyIsUpdatedButWorkingCopyIsErasedAndCreated" classname="compliancequest.SQX_Test_2346_Audit_Checkin_Checkout" time="12.68">
+        </testcase>
+        <testcase name="givenAnAudit_WhenAuditIsInProgress_AuditCanBeCheckedOut" classname="compliancequest.SQX_Test_2346_Audit_Checkin_Checkout" time="2.95">
+        </testcase>
+        <testcase name="givenAnAudit_WhenAuditIsInProgress_AuditCanBeCheckedOutAndCheckedIn" classname="compliancequest.SQX_Test_2346_Audit_Checkin_Checkout" time="1.17">
+        </testcase>
+        <testcase name="whenAuditTeamRecordThatIsOwnerOfAuditIsEdited_thenErrorIsThrown" classname="compliancequest.SQX_Test_Audit" time="3.22">
+        </testcase>
+        <testcase name="whenAuditisCreatedPlanPeriodWithoutStartDate_thenValidationErrorIsNotThrown" classname="compliancequest.SQX_Test_Audit" time="0.66">
+        </testcase>
+        <testcase name="whenAuditisCreatedWithStartDateWithoutPlanPeriod_thenValidationErrorIsNotThrown" classname="compliancequest.SQX_Test_Audit" time="0.86">
+        </testcase>
+        <testcase name="whenAuditisCreatedWithoutStartDateAndPlanPeriodWithResultTypeAsSupplierEvaluation_thenValidationErrorIsNotThrown" classname="compliancequest.SQX_Test_Audit" time="0.62">
+        </testcase>
+        <testcase name="whenStartDateIsSpecified_ThenAuditEventIsCreated" classname="compliancequest.SQX_Test_Audit" time="1.47">
+        </testcase>
+        <testcase name="givenCompleteAudit_whenFollowUpAuditDateIsSetLessThanTodayAndAudit_ValidationErrorOccurs" classname="compliancequest.SQX_Test_Audit" time="1.88">
+        </testcase>
+        <testcase name="givenSaveAudit_AuditResultRequiredForCompletion" classname="compliancequest.SQX_Test_Audit" time="3.90">
+        </testcase>
+        <testcase name="whenAuditIsSavedInPlanState_OwnerIsNotAddedToTeam" classname="compliancequest.SQX_Test_Audit" time="4.23">
+        </testcase>
+        <testcase name="whenAuditTeamIsAddedThroughATeamUser_ThenItIsAddedSuccessfully" classname="compliancequest.SQX_Test_Audit" time="3.02">
+        </testcase>
+        <testcase name="givenAuditRecordInStatusOpenAndStageInProgress_whenDifferentActionsArePerformed_thenActionsAreValidatedValidationIsNotThrownWhileAssignResultAction" classname="compliancequest.SQX_Test_Audit" time="3.21">
+        </testcase>
+        <testcase name="givenAuditRecordInStatusOpenAndStageInProgress_whenDifferentActionsArePerformed_thenActionsAreValidatedValidationIsNotThrownWhileGeneratingReportAction" classname="compliancequest.SQX_Test_Audit" time="2.67">
+        </testcase>
+        <testcase name="givenAnAuditRecordAPlanApprovalStage_whenAuditTeamRecordIsInsertedOrEditedOrDeleted_thenErrorIsThrown" classname="compliancequest.SQX_Test_Audit" time="2.60">
+        </testcase>
+        <testcase name="givenAnAuditRecordAProgramApprovalStage_whenAuditTeamRecordIsInsertedOrEditedOrDeleted_thenErrorIsThrown" classname="compliancequest.SQX_Test_Audit" time="2.76">
+        </testcase>
+        <testcase name="givenAnAuditRecordAtClosedStage_whenAuditTeamRecordIsInsertedOrEditedOrDeleted_thenErrorIsThrown" classname="compliancequest.SQX_Test_Audit" time="4.48">
+        </testcase>
+        <testcase name="givenAnAuditRecordAtFindingApprovalStage_whenAuditTeamRecordIsInsertedOrEditedOrDeleted_thenErrorIsThrown" classname="compliancequest.SQX_Test_Audit" time="4.43">
+        </testcase>
+        <testcase name="givenAnAuditRecordAtImplementationResponseApprovalStage_whenAuditTeamRecordIsInsertedOrEditedOrDeleted_thenErrorIsNotThrown" classname="compliancequest.SQX_Test_Audit" time="5.17">
+        </testcase>
+        <testcase name="givenAnAuditRecordAtReadyForClosureStage_whenAuditTeamRecordIsInsertedOrEditedOrDeleted_thenErrorIsNotThrown" classname="compliancequest.SQX_Test_Audit" time="4.75">
+        </testcase>
+        <testcase name="givenAnAuditRecordAtResponseApprovalStage_whenAuditTeamRecordIsInsertedOrEditedOrDeleted_thenErrorIsNotThrown" classname="compliancequest.SQX_Test_Audit" time="4.58">
+        </testcase>
+        <testcase name="givenAnAuditRecordAtStatusDraftAndStagePlan_whenCloseActionIsPerformed_thenOnly1ErrorIsThrown" classname="compliancequest.SQX_Test_Audit" time="1.96">
+        </testcase>
+        <testcase name="givenAnAuditRecordAtStatusOpenAndStageScheduled_whenCloseActionIsPerformed_thenOnly1ErrorIsThrown" classname="compliancequest.SQX_Test_Audit" time="1.94">
+        </testcase>
+        <testcase name="givenAnAuditRecordAtVoidStatus_whenAuditTeamRecordIsInsertedOrEditedOrDeleted_thenErrorIsThrown" classname="compliancequest.SQX_Test_Audit" time="4.12">
+        </testcase>
+        <testcase name="givenAnAuditRecordInImplementationStage_whenAuditTeamRecordIsInsertedOrEditedOrDeleted_thenErrorIsNotThrown" classname="compliancequest.SQX_Test_Audit" time="3.21">
+        </testcase>
+        <testcase name="givenAnAuditRecordInProgressStage_whenAuditTeamRecordIsInsertedOrEditedOrDeleted_thenErrorIsNotThrown" classname="compliancequest.SQX_Test_Audit" time="4.00">
+        </testcase>
+        <testcase name="givenAnAuditRecordInRespondStage_whenAuditTeamRecordIsInsertedOrEditedOrDeleted_thenErrorIsNotThrown" classname="compliancequest.SQX_Test_Audit" time="3.18">
+        </testcase>
+        <testcase name="givenAnAudit_WhenAuditIsVoidAuditCannotBeChanged" classname="compliancequest.SQX_Test_Audit" time="1.22">
+        </testcase>
+        <testcase name="givenAuditRecordInStatusOpenAndStageSchedueled_whenDifferentActionsArePerformed_thenActionsAreValidated" classname="compliancequest.SQX_Test_Audit" time="2.15">
+        </testcase>
+        <testcase name="givenAuditRecord_WhenAuditIsInStatusClosedStageClosed_ThenPhaseShouldBeClosure" classname="compliancequest.SQX_Test_Audit" time="3.57">
+        </testcase>
+        <testcase name="givenAuditRecord_WhenAuditIsInStatusCompleteStageImplement_ThenPhaseShouldBeClosure" classname="compliancequest.SQX_Test_Audit" time="1.85">
+        </testcase>
+        <testcase name="givenAuditRecord_WhenAuditIsInStatusCompleteStageImplementationResponseApproval_ThenPhaseShouldBeClosure" classname="compliancequest.SQX_Test_Audit" time="2.99">
+        </testcase>
+        <testcase name="givenAuditRecord_WhenAuditIsInStatusCompleteStageReadyForClosure_ThenPhaseShouldBeClosure" classname="compliancequest.SQX_Test_Audit" time="2.97">
+        </testcase>
+        <testcase name="givenAuditRecord_WhenAuditIsInStatusCompleteStageRespond_ThenPhaseShouldBeReporting" classname="compliancequest.SQX_Test_Audit" time="1.86">
+        </testcase>
+        <testcase name="givenAuditRecord_WhenAuditIsInStatusCompleteStageResponseApproval_ThenPhaseShouldBeReporting" classname="compliancequest.SQX_Test_Audit" time="3.20">
+        </testcase>
+        <testcase name="givenAuditRecord_WhenAuditIsInStatusDraftStagePlanApproval_ThenPhaseShouldBePlanning" classname="compliancequest.SQX_Test_Audit" time="1.61">
+        </testcase>
+        <testcase name="givenAuditRecord_WhenAuditIsInStatusDraftStagePlan_ThenPhaseShouldBePlanning" classname="compliancequest.SQX_Test_Audit" time="1.44">
+        </testcase>
+        <testcase name="givenAuditRecord_WhenAuditIsInStatusDraftStageProgramApproval_ThenPhaseShouldBePlanning" classname="compliancequest.SQX_Test_Audit" time="1.44">
+        </testcase>
+        <testcase name="givenAuditRecord_WhenAuditIsInStatusOpenStageFindingApproval_ThenPhaseShouldBeReporting" classname="compliancequest.SQX_Test_Audit" time="2.98">
+        </testcase>
+        <testcase name="givenAuditRecord_WhenAuditIsInStatusOpenStageInProgress_ThenPhaseShouldBeExecution" classname="compliancequest.SQX_Test_Audit" time="2.30">
+        </testcase>
+        <testcase name="givenAuditRecord_WhenAuditIsInStatusOpenStageProgramConfirmed_ThenPhaseShouldBePlanning" classname="compliancequest.SQX_Test_Audit" time="2.11">
+        </testcase>
+        <testcase name="givenAuditRecord_WhenAuditIsInStatusOpenStageScheduled_ThenPhaseShouldBePlanning" classname="compliancequest.SQX_Test_Audit" time="2.05">
+        </testcase>
+        <testcase name="givenAuditRecord_WhenAuditIsInStatusVoidStageNull_ThenPhaseShouldBeNull" classname="compliancequest.SQX_Test_Audit" time="1.72">
+        </testcase>
+        <testcase name="givenAuditWithActions_WhenNewMemberIsAddedToTeam_NewTeamMemberHasEditAccessToAction" classname="compliancequest.SQX_Test_Audit" time="2.07">
+        </testcase>
+        <testcase name="givenAuditWithActions_WhenOwnerIsChanged_NewOwnerHasEditAccessToAction" classname="compliancequest.SQX_Test_Audit" time="3.53">
+        </testcase>
+        <testcase name="givenAudit_WhenNewMemberIsAddedToTeamBeforeAddingAction_NewTeamMemberHasEditAccessToAction" classname="compliancequest.SQX_Test_Audit" time="1.70">
+        </testcase>
+        <testcase name="givenChangeLeadAuditor_SaveWhenAuditPlanAndFailWhenNotInPlan" classname="compliancequest.SQX_Test_Audit" time="4.26">
+        </testcase>
+        <testcase name="givenAnClosedaudit_WhenUserTryToUpdateAudit_ThenGetValidationErrroMessage" classname="compliancequest.SQX_Test_Audit" time="3.65">
+        </testcase>
+        <testcase name="givenAnaudit_WhenAuditIsAutoClosedWithFollowupRequired_FollowupAuditIsCreated" classname="compliancequest.SQX_Test_Audit" time="7.67">
+        </testcase>
+        <testcase name="givenAnaudit_WhenAuditIsClosedManuallyWithFollowupRequired_FollowupAuditIsCreated" classname="compliancequest.SQX_Test_Audit" time="4.23">
+        </testcase>
+        <testcase name="givenAnaudit_WhenAuditIsClosedWithoutFollowupRequired_FollowupAuditIsNotCreated" classname="compliancequest.SQX_Test_Audit" time="3.49">
+        </testcase>
+        <testcase name="givenAuditPlanApprovedOrInitiated_LeadAuditorIsSetAsOwner" classname="compliancequest.SQX_Test_Audit" time="7.24">
+        </testcase>
+        <testcase name="givenAuditRecordInStatusClosedAndStageClosed_whenDifferentActionsArePerformed_thenActionsAreValidated" classname="compliancequest.SQX_Test_Audit" time="3.46">
+        </testcase>
+        <testcase name="givenAuditRecordInStatusCompleteAndStageImplement_whenDifferentActionsArePerformed_thenActionsAreValidated" classname="compliancequest.SQX_Test_Audit" time="2.88">
+        </testcase>
+        <testcase name="givenAuditRecordInStatusCompleteAndStageImplementationResponseApproval_whenDifferentActionsArePerformed_thenActionsAreValidated" classname="compliancequest.SQX_Test_Audit" time="3.59">
+        </testcase>
+        <testcase name="givenAuditRecordInStatusCompleteAndStageReadyforClosure_whenDifferentActionsArePerformed_thenActionsAreValidated" classname="compliancequest.SQX_Test_Audit" time="3.87">
+        </testcase>
+        <testcase name="givenAuditRecordInStatusCompleteAndStageRespond_whenDifferentActionsArePerformed_thenActionsAreValidated" classname="compliancequest.SQX_Test_Audit" time="2.97">
+        </testcase>
+        <testcase name="givenAuditRecordInStatusCompleteAndStageResponseApproval_whenDifferentActionsArePerformed_thenActionsAreValidated" classname="compliancequest.SQX_Test_Audit" time="3.42">
+        </testcase>
+        <testcase name="givenAuditRecordInStatusDraftAndStagePlanApproval_whenDifferentActionsArePerformed_thenActionsAreValidated" classname="compliancequest.SQX_Test_Audit" time="1.20">
+        </testcase>
+        <testcase name="givenAuditRecordInStatusDraftAndStagePlan_whenAuditIsInitiatedTwice_thenValidationErrorIsNotThrownAtFirstButThrownAtSecondAttempt" classname="compliancequest.SQX_Test_Audit" time="2.50">
+        </testcase>
+        <testcase name="givenAuditRecordInStatusDraftAndStagePlan_whenDifferentActionsArePerformed_thenActionsAreValidated" classname="compliancequest.SQX_Test_Audit" time="1.20">
+        </testcase>
+        <testcase name="givenAuditRecordInStatusOpenAndStageConfirmed_whenDifferentActionsArePerformed_thenActionsAreValidated" classname="compliancequest.SQX_Test_Audit" time="2.96">
+        </testcase>
+        <testcase name="givenAuditRecordInStatusOpenAndStageFindingApproval_whenDifferentActionsArePerformed_thenActionsAreValidated" classname="compliancequest.SQX_Test_Audit" time="3.58">
+        </testcase>
+        <testcase name="givenAuditWithStartDateHigherThanToday_WhenTryingToInitiate_ThenErrorIsShown" classname="compliancequest.SQX_Test_4828_Start_Date_Not_Future_Date" time="1.44">
+        </testcase>
+        <testcase name="givenAuditWithStartDateHigherThanToday_WhenTryingToSaveWithScheduled_ThenErrorIsNotShown" classname="compliancequest.SQX_Test_4828_Start_Date_Not_Future_Date" time="0.92">
+        </testcase>
+        <testcase name="givenAuditsWithFinding_WhenAuditReportIsCompletedAndUserTryToEditAuditRecord_ThenGetValidationErrorMessage" classname="compliancequest.SQX_Test_4828_Start_Date_Not_Future_Date" time="7.40">
+        </testcase>
+        <testcase name="givenAuditWhenFindngIsAdded_EnsureItIsEditableByTeamMembers" classname="compliancequest.SQX_Test_1139_Audit_With_Finding" time="5.27">
+        </testcase>
+        <testcase name="givenAuditWhenTeamMemberIsAdded_EnsureAuditFindingCanBeEdited" classname="compliancequest.SQX_Test_1139_Audit_With_Finding" time="4.58">
+        </testcase>
+        <testcase name="givenAuditWhenTeamMemberIsDeleted_EnsureSharingIsDeletedFromFinding" classname="compliancequest.SQX_Test_1139_Audit_With_Finding" time="6.28">
+        </testcase>
+        <testcase name="givenAuditWhichHasAuditChecklistFromApprovedCriteria_ItCannotBeAltered" classname="compliancequest.SQX_Test_1139_Audit_With_Finding" time="6.48">
+        </testcase>
+        <testcase name="givenAuditOwnerIsRemovedFromAudit_ExceptionIsThrown" classname="compliancequest.SQX_Test_1138_TestOnAuditEntity" time="2.76">
+        </testcase>
+        <testcase name="run_givenAuditIsScheduled_OwnerIsAddedAsTeamMember" classname="compliancequest.SQX_Test_1138_TestOnAuditEntity" time="1.78">
+        </testcase>
+        <testcase name="capaResponse_ApprovalRequired_CapaCanBeRecalled" classname="compliancequest.SQX_Test_1118_Response_Recall" time="10.68">
+        </testcase>
+        <testcase name="givenAuditWithAction_WhenActionStatusIsOpenWhilePerformAction_ThenUserWillNavigateToAuditResponsePage" classname="compliancequest.SQX_Test_16009_ImplementationSFTask" time="4.82">
+        </testcase>
+        <testcase name="givenAuditwithOpenInprogress_WhenAuditResponseIsDoneWithActionPlan_ThenSFTaskIsCreated" classname="compliancequest.SQX_Test_16009_ImplementationSFTask" time="4.80">
+        </testcase>
+        <testcase name="givenAuditwithOpenInprogress_WhenAuditResponseIsDoneWithImplementationAndFTaskIsCreatedFileIsAddedITaskAndCompleted_ThenAddedFileIsLinkedWithAudit" classname="compliancequest.SQX_Test_16009_ImplementationSFTask" time="6.01">
+        </testcase>
+        <testcase name="givenAuditwithOpenInprogress_WhenAuditResponseIsDoneWithImplementation_ThenSFTaskIsCreatedAndCompleteDependsUponStatus" classname="compliancequest.SQX_Test_16009_ImplementationSFTask" time="4.00">
+        </testcase>
+        <testcase name="givenCAPARecordWithAction_WhenActionIsOpenedAndSFTaskIsCreatedWhilePerformingCQAction_ThenUserWillRedirectToImplementationRecordDetailsPage" classname="compliancequest.SQX_Test_16009_ImplementationSFTask" time="7.22">
+        </testcase>
+        <testcase name="givenImplementationAssigneeAsExternalUser_WhenImplementationIsOpenSfTaskIsCreated_ThenTaskIsCreatedWithContactAssocaited" classname="compliancequest.SQX_Test_16009_ImplementationSFTask" time="6.75">
+        </testcase>
+        <testcase name="givenAuditwithAutoCloseEnabled_WhenAuditReportIsEnabled_AuditIsClosed" classname="compliancequest.SQX_Test_3932_Audit_Auto_Close" time="5.21">
+        </testcase>
+        <testcase name="givenActionSaved_OwnerAsAssignee_SharedWithMainRecordOwner" classname="compliancequest.SQX_Test_1595_Action" time="8.43">
+        </testcase>
+        <testcase name="givenOpenAction_WhenAssigneeOrOwnerIsChanged_ThenAssigneeIsChangedInSfTask" classname="compliancequest.SQX_Test_1595_Action" time="7.84">
+        </testcase>
+        <testcase name="givenOpenAction_WhenSaved_AssignedBecomesOwner" classname="compliancequest.SQX_Test_1595_Action" time="8.67">
+        </testcase>
+        <testcase name="givenAuditRecord_whenUserWithAuditorPermission_thenActionPerfomedSuccessfully" classname="compliancequest.SQX_Test_17803_Auditor" time="6.72">
+        </testcase>
+        <testcase name="givenUserWithAuditProgramManagerPermissionSetAProgramIsVoided_AllPlannedAuditsAreVoided" classname="compliancequest.SQX_Test_17802_AuditProgramMngerPermSet" time="3.17">
+        </testcase>
+        <testcase name="givenUserWithAuditProgramManagerPermissionSetAndAProgramIsApproved_AllPlannedAuditsAreScheduled" classname="compliancequest.SQX_Test_17802_AuditProgramMngerPermSet" time="2.99">
+        </testcase>
+        <testcase name="givenUserWithAuditProgramManagerPermissionSetAndAuditProgramWithDuplicateProgramNumber_ItIsntSaved" classname="compliancequest.SQX_Test_17802_AuditProgramMngerPermSet" time="0.42">
+        </testcase>
+        <testcase name="givenUserWithAuditProgramManagerPermissionSetAndAuditProgramWithInProgressAudit_ItCantBeClosed" classname="compliancequest.SQX_Test_17802_AuditProgramMngerPermSet" time="1.45">
+        </testcase>
+        <testcase name="givenUserWithAuditProgramManagerPermissionSetAndAuditProgramWithInProgressAudit_ItCantBeVoided" classname="compliancequest.SQX_Test_17802_AuditProgramMngerPermSet" time="3.07">
+        </testcase>
+        <testcase name="givenUserWithAuditProgramManagerPermissionSetAndAuditProgram_DuplicateScopeCantBeAdded" classname="compliancequest.SQX_Test_17802_AuditProgramMngerPermSet" time="2.10">
+        </testcase>
+        <testcase name="givenUserWithAuditProgramManagerPermissionSetAndAuditProgram_IfProgramIsVoidedAllRelatedAuditsAreRemovedFromCalender" classname="compliancequest.SQX_Test_17802_AuditProgramMngerPermSet" time="2.22">
+        </testcase>
+        <testcase name="givenUserWithAuditProgramManagerPermissionSetAndAuditProgram_IfProgramIsVoidedAndEventIsRemovedProgramShouldBeUpdated" classname="compliancequest.SQX_Test_17802_AuditProgramMngerPermSet" time="2.26">
+        </testcase>
+        <testcase name="givenUserWithAuditProgramManagerPermissionSetAndAuditProgram_NonDuplicateScopeCanBeAdded" classname="compliancequest.SQX_Test_17802_AuditProgramMngerPermSet" time="2.81">
+        </testcase>
+        <testcase name="givenUserWithAuditProgramManagerPermissionSetAuditPgmWithTwoAuditsAndScope_WhenPgmIsApproved_CriterionReqIsCopied" classname="compliancequest.SQX_Test_17802_AuditProgramMngerPermSet" time="4.99">
+        </testcase>
+        <testcase name="givenUserWithAuditProgramManagerPermissionSetCreatesAuditProgram_WhenSubmitForapprovalWhichIsInDraftStatus_ThenAuditProgramWillGoToPlanApproval" classname="compliancequest.SQX_Test_17802_AuditProgramMngerPermSet" time="0.28">
+        </testcase>
+        <testcase name="givenUserWithAuditProgramManagerPermissionSetSetsAuditProgramName_UniqueNameIsSameAsName" classname="compliancequest.SQX_Test_17802_AuditProgramMngerPermSet" time="0.28">
+        </testcase>
+        <testcase name="givenUserWithAuditProgramManagerPermissionSet_whenAuditProgramIsLocked_ItCantBeEditedOrDeleted" classname="compliancequest.SQX_Test_17802_AuditProgramMngerPermSet" time="0.62">
+        </testcase>
+        <testcase name="givenUserWithAuditProgramManagerPermissionSet_whenProgramSubmittedForApproval_ThenAuditStageChangesToProgramApproval" classname="compliancequest.SQX_Test_17802_AuditProgramMngerPermSet" time="2.33">
+        </testcase>
+        <testcase name="givenUserWithAuditProgramManagerPermissionSet_whenProgramSubmittedForApproval_ThenCustomErrorIsThrownForRelatedAuditWithoutTitle" classname="compliancequest.SQX_Test_17802_AuditProgramMngerPermSet" time="2.00">
+        </testcase>
+        <testcase name="givenUserWithAuditProgramManagerPermissionSet_whenUserTriesToCreateAuditProgram_thenAuditProgramShouldBeCreated" classname="compliancequest.SQX_Test_17802_AuditProgramMngerPermSet" time="0.20">
+        </testcase>
+        <testcase name="auditNeedingResponseReturned" classname="compliancequest.SQX_Test_1333_AuditsNeedingResponse" time="10.90">
+        </testcase>
+        <testcase name="auditOwnerChanged_FindingOwnerChanged" classname="compliancequest.SQX_Test_1574_Change_Owner" time="5.04">
+        </testcase>
+        <testcase name="givenAuditOwnerIsChanged_RelatedRecordsOwnershipIsChanged" classname="compliancequest.SQX_Test_1574_Change_Owner" time="3.73">
+        </testcase>
+        <testcase name="givenAuditWithTeamMembers_WhenOwnerIsChangeToOneOfTeamMember_OwnerIsChangedAndOldOwnerIsInTeam" classname="compliancequest.SQX_Test_1574_Change_Owner" time="2.05">
+        </testcase>
+        <testcase name="givenAuditRecordUserWithCQAuditAdminPermissionset_whenAuditResponseSubmitted_thenResponseIsProcessed" classname="compliancequest.SQX_Test_17801_AuditAdminPermission" time="7.58">
+        </testcase>
+        <testcase name="givenAuditRecordWithChildRecordsOwnedByAnotherUser_whenUserWithCQAuditAdminPermissionAddsEditsChildRecords_thenErrorIsNotThrown" classname="compliancequest.SQX_Test_17801_AuditAdminPermission" time="5.55">
+        </testcase>
+        <testcase name="givenAuditRecord_whenUserWithCQAuditAdminPermissionAddsEditsChildRecords_thenErrorIsNotThrown" classname="compliancequest.SQX_Test_17801_AuditAdminPermission" time="6.48">
+        </testcase>
+        <testcase name="givenAuditWithAuditTeam_WhenTeamMemberWithReadRoleIsMadeOwner_ThenRoleOfTeamMemberChangesToEditor" classname="compliancequest.SQX_Test_3662_Audit_Private" time="2.05">
+        </testcase>
+        <testcase name="givenAudit_WhenAuditTeamIsAdded_AuditIsSharedWithTeamMembersWithSharingReason" classname="compliancequest.SQX_Test_3662_Audit_Private" time="0.92">
+        </testcase>
+        <testcase name="givenAudit_WhenFindingIsAdded_FindingIsSharedWithTeamMembersWithSharingReason" classname="compliancequest.SQX_Test_3662_Audit_Private" time="1.96">
+        </testcase>
+        <testcase name="givenPublicReadAudit_WhenAuditIsSharedHavingReadAccesslevelWithUser_ItShouldNotBeShared" classname="compliancequest.SQX_Test_3662_Audit_Private" time="0.82">
+        </testcase>
+        <testcase name="WhenImplementationIsSkip_ThenRelatedSfTaskGetcompleteWithoutErrorMessage" classname="compliancequest.SQX_Test_Action_Skip" time="1.50">
+        </testcase>
+        <testcase name="givenActionInSkipsStatus_WhenAssigneeIsUpdate_ThenthrowValidationError" classname="compliancequest.SQX_Test_Action_Skip" time="0.74">
+        </testcase>
+        <testcase name="whenOpenImplementationWithAuditWithImplementationApprovalIsSkip_ThenRelatedAuditResponseIsCreated" classname="compliancequest.SQX_Test_Action_Skip" time="1.38">
+        </testcase>
+        <testcase name="whenOpenImplementationWithAuditWithoutImplementationApprovalIsSkip_ThenImplementaitonStatusIsOpenAndNewStatusIsSkip" classname="compliancequest.SQX_Test_Action_Skip" time="1.38">
+        </testcase>
+        <testcase name="whenReferencingInEffectiveCAPA_ValidationErrorIsThrown" classname="compliancequest.SQX_Test_3657_Finding_CAPA_Integration" time="7.11">
+        </testcase>
+        <testcase name="GivenSupplierDeviation_WhenVoidTheRecord_ThenClearAuditNumberInOnboardingStep" classname="compliancequest.SQX_Test_5757_Delete_Tasks" time="7.09">
+        </testcase>
+        <testcase name="GivenSupplierDeviation_WhenVoidTheRecord_ThenDeleteTasksAndDeviationProcessOpenChangeToDraft" classname="compliancequest.SQX_Test_5757_Delete_Tasks" time="4.86">
+        </testcase>
+        <testcase name="givenCAPAWithOpenImplementation_WhenExtensionRequestIsCreatedWithInactiveApprover_ThenShowsHumanReadableErrorMessage" classname="compliancequest.SQX_Test_Action_Extension_Request" time="10.12">
+        </testcase>
+        <testcase name="givenOpenActionRecords_WhenSendForExtensionRequestByPartnerUser_ThenRecordShouldBeProcessedSuccessfully" classname="compliancequest.SQX_Test_Action_Extension_Request" time="2.60">
+        </testcase>
+        <testcase name="whenOpenImplementationWithAuditWithImplementationApprovalIsExtensionRequest_ThenImplementaitonStatusIsOpenAndNewStatusIsNull" classname="compliancequest.SQX_Test_Action_Extension_Request" time="1.30">
+        </testcase>
+        <testcase name="whenOpenImplementationWithAuditWithoutImplementationApprovalIsExtensionRequest_ThenImplementaitonStatusIsOpenAndExtensionRequestStatusIsApproved" classname="compliancequest.SQX_Test_Action_Extension_Request" time="0.99">
+        </testcase>
+        <testcase name="givenActionWithOpenImplementation_WhenMigrationPSIsAssignedToUser_ThenExtensionRequestIsCreatable" classname="compliancequest.SQX_Test_Action_Extension_Request" time="2.72">
+        </testcase>
+        <testcase name="givenDocumentRequestTaskTypePolicyTask_WhenTheRelatedDocumentIsMadeObsoleteWithoutNewRevision_ThenObsolescencePrevented" classname="compliancequest.SQX_Test_2866_Doc_Update_Reference" time="2.00">
+        </testcase>
+        <testcase name="givenAScheduledAuditWithAuditCriteriaDoc_WhenDocIsObsoletedWithOutNewRevision_DocIsObsoleted" classname="compliancequest.SQX_Test_2866_Doc_Update_Reference" time="5.83">
+        </testcase>
+        <testcase name="givenAnAuditInPlanWithAuditCriteriaDoc_WhenDocIsObsoletedWithOutNewRevision_ErrorIsThrown" classname="compliancequest.SQX_Test_2866_Doc_Update_Reference" time="3.07">
+        </testcase>
+        <testcase name="givenAnAuditInStageOtherThanDraft_WhenDocIsObsoleted_NoErrorIsThrown" classname="compliancequest.SQX_Test_2866_Doc_Update_Reference" time="3.40">
+        </testcase>
+        <testcase name="givenAnAuditProgramScopeWithAuditCriteriaDoc_WhenDocIsObsoletedWithNewRevision_NewRevisedDocIsLinked" classname="compliancequest.SQX_Test_2866_Doc_Update_Reference" time="8.11">
+        </testcase>
+        <testcase name="givenAnAuditProgramScopeWithAuditCriteriaDoc_WhenDocIsObsoletedWithoutNewRevision_ErrorIsThrown" classname="compliancequest.SQX_Test_2866_Doc_Update_Reference" time="2.51">
+        </testcase>
+        <testcase name="givenAnAuditWhichIsInPlanIsLinkedWithAuditCriteriaDoc_WhenDocIsObsoletedWithNewRevision_NewRevisedDocIsLinked" classname="compliancequest.SQX_Test_2866_Doc_Update_Reference" time="8.56">
+        </testcase>
+        <testcase name="givenAnAuditWhichIsScheduledIsLinkedWithAuditCriteriaDoc_WhenDocIsObsoletedWithNewRevision_NewRevisedDocIsLinked" classname="compliancequest.SQX_Test_2866_Doc_Update_Reference" time="9.87">
+        </testcase>
+        <testcase name="givenAnEquipmentEventScheduleWithApplicableProcedureDoc_WhenDocIsObsoletedWithNewRevision_NewRevisedDocIsLinked" classname="compliancequest.SQX_Test_2866_Doc_Update_Reference" time="6.28">
+        </testcase>
+        <testcase name="givenAnEquipmentEventScheduleWithApplicableProcedureDoc_WhenDocIsObsoletedWithoutNewRevision_ErrorIsThrown" classname="compliancequest.SQX_Test_2866_Doc_Update_Reference" time="2.01">
+        </testcase>
+        <testcase name="givenAnEquipmentWithApplicableProcedureDoc_WhenDocIsObsoletedWithNewRevision_NewRevisedDocIsLinked" classname="compliancequest.SQX_Test_2866_Doc_Update_Reference" time="6.15">
+        </testcase>
+        <testcase name="givenAnEquipmentWithApplicableProcedureDoc_WhenDocIsObsoletedWithoutNewRevision_ErrorIsThrown" classname="compliancequest.SQX_Test_2866_Doc_Update_Reference" time="1.98">
+        </testcase>
+        <testcase name="givenAnOnBoardingStepOfDocRequestType_WhenRelatedDocumentIsObsoletedWithNewRevision_ThenDocReferenceIsUpdated" classname="compliancequest.SQX_Test_2866_Doc_Update_Reference" time="8.21">
+        </testcase>
+        <testcase name="givenAnOnBoardingStepOfDocRequestType_WhenRelatedDocumentIsObsoletedWithoutNewRevision_ThenErrorIsThrown" classname="compliancequest.SQX_Test_2866_Doc_Update_Reference" time="5.32">
+        </testcase>
+        <testcase name="givenClosedAndVoidedAuditProgramsWithAuditProgramScope_WhenLinkedAuditCriteriaDocIsObsoletedWithoutNewRevision_DocIsObsoletedSuccessfully" classname="compliancequest.SQX_Test_2866_Doc_Update_Reference" time="2.33">
+        </testcase>
+        <testcase name="givenDocumentRequestTaskTypePolicyTask_WhenTheRelatedDocumentIsMadeObsoleteWithNewRevision_ThenReferenceIsUpdatedInTask" classname="compliancequest.SQX_Test_2866_Doc_Update_Reference" time="6.21">
+        </testcase>
+        <testcase name="givenCapa_WhenActionRelatedToCAPAIsCreate_ThenItsAssigneeIsEqualsToCapaCapaCordinator" classname="compliancequest.SQX_Test_Action_Create" time="0.67">
+        </testcase>
+        <testcase name="givenFindingRelatedToAudit_WhenActionRelatedToFindingIsCreate_ThenItsAssigneeIsEqualsToActionAuditeeContact" classname="compliancequest.SQX_Test_Action_Create" time="0.63">
+        </testcase>
+        <testcase name="givenFindingWithAudit_WhenActionWithFindingIsCreatedWithUserThatHasNoEditAccessOnFinding_ThenErrorOccuredWhileSaving" classname="compliancequest.SQX_Test_Action_Create" time="0.74">
+        </testcase>
+        <testcase name="givenFindingWithAudit_WhenActionWithFindingIsCreated_ThenAuditInActionIsSetAsExpected" classname="compliancequest.SQX_Test_Action_Create" time="0.63">
+        </testcase>
+        <testcase name="givenFinding_WhenActionWithoutAssigneeIsCreated_ThenActionRecordIsCreated" classname="compliancequest.SQX_Test_Action_Create" time="1.35">
+        </testcase>
+        <testcase name="givenResponseWithFinding_WhenActionWithResponseIsCreated_ThenFindingInActionIsSetAsExpected" classname="compliancequest.SQX_Test_Action_Create" time="0.65">
+        </testcase>
+        <testcase name="whenOpenImplementationWithAuditWithoutImplementationApprovalIsCompleted_ThenImplementaitonStatusIsCompleteAndNewStatusIsNull" classname="compliancequest.SQX_Test_Action_Complete" time="4.17">
+        </testcase>
+        <testcase name="givenOpenActionWithSubmitImplTask_WhenActionIsCompleted_ThenSubmitImplTaskShouldBeCompleted" classname="compliancequest.SQX_Test_Action_Complete" time="4.38">
+        </testcase>
+        <testcase name="whenOpenImplementationWithAuditWithImplementationApprovalIsCompleted_ThenOneRelatedAuditResponseFindingResponseResponseInclusionEach" classname="compliancequest.SQX_Test_Action_Complete" time="3.60">
+        </testcase>
+        <testcase name="givenNonconformanceRecordInImplementStageWithOpenAction_WhenActionIsCompleted_ThenNCStatusAndStageChangesToCompleteAndVerification" classname="compliancequest.SQX_Test_Action_Complete" time="1.82">
+        </testcase>
+        <testcase name="givenActionOwnerWithExternalUser_WhenUserTriesToCompleteAction_ActionGetCompleteSuccessfully" classname="compliancequest.SQX_Test_Action_Complete" time="5.44">
+        </testcase>
+        <testcase name="givenAuditResponseWithMultipleAction_WhenActionIsCompleted_OnlyOneInclusionIncludedInResponse" classname="compliancequest.SQX_Test_Action_Complete" time="3.61">
+        </testcase>
+        <testcase name="givenCompleteAction_WhenAssigneeIsChanged_ThenThrowValidationError" classname="compliancequest.SQX_Test_Action_Complete" time="0.78">
+        </testcase>
+        <testcase name="auditIsClosedAnfFollowupAuditIsNotRequired_FollowupAuditIsNotCreated" classname="compliancequest.SQX_Test_1476_Followup_Audit" time="3.71">
+        </testcase>
+        <testcase name="auditIsClosedAnfFollowupAuditIsRequired_FollowupAuditIsCreated" classname="compliancequest.SQX_Test_1476_Followup_Audit" time="2.88">
+        </testcase>
+        <testcase name="givenOnboardingStep_WhenAssigneeCompleteTheTask_ThenCompleteTheStep" classname="compliancequest.SQX_Test_6924_Cross_Privilege" time="6.50">
+        </testcase>
+        <testcase name="givenNSIWithPerformAudit_WhenCompleteSFTaskWithDraftAudit_ThenThrowErrorMessage" classname="compliancequest.SQX_Test_6623_Prevent_DraftAndOpenAudits" time="3.04">
+        </testcase>
+        <testcase name="givenSDWithPerformAudit_WhenAddDraftAudit_ThenShouldNotThrowErrorMessage" classname="compliancequest.SQX_Test_6623_Prevent_DraftAndOpenAudits" time="1.93">
+        </testcase>
+        <testcase name="givenSDWithPerformAudit_WhenCompleteSFTaskWithDraftAudit_ThenThrowErrorMessage" classname="compliancequest.SQX_Test_6623_Prevent_DraftAndOpenAudits" time="3.48">
+        </testcase>
+        <testcase name="givenNSIWithPerformAudit_WhenAddDraftAudit_ThenShouldNotThrowErrorMessage" classname="compliancequest.SQX_Test_6623_Prevent_DraftAndOpenAudits" time="1.76">
+        </testcase>
+        <testcase name="allAuditFindingNotComplete_AuditCannotBeClosed" classname="compliancequest.SQX_Test_1293_Audit_Response" time="8.49">
+        </testcase>
+        <testcase name="auditResponseSubmitted_ResponseProcessed" classname="compliancequest.SQX_Test_1293_Audit_Response" time="8.28">
+        </testcase>
+        <testcase name="givenAnAuditIsClosed_ItCantBeChanged" classname="compliancequest.SQX_Test_1293_Audit_Response" time="1.64">
+        </testcase>
+        <testcase name="givenCreateAuditWithOrWithOutNsi_UserEditAuditAndChangeTheAuditTypeAndNotSelectAccount_ThenShouldgetErrorMessageInDifferentScenario" classname="compliancequest.SQX_Test_5483_NSI_Audit_Life_Cycle" time="7.05">
+        </testcase>
+        <testcase name="givenNSI_WhenVoidAuditIsLinked_ErrorIsThrown" classname="compliancequest.SQX_Test_5483_NSI_Audit_Life_Cycle" time="6.16">
+        </testcase>
+        <testcase name="givenOnboardingPerformAndSaveAudit_WhenUserEditAuditRecordAndChangeRefNsiAndTryToUpdate_ThenGiveErrorMessage" classname="compliancequest.SQX_Test_5483_NSI_Audit_Life_Cycle" time="4.65">
+        </testcase>
+        <testcase name="givenAuditReportIsInApproval_AuditAndFindingIsLocked" classname="compliancequest.SQX_Test_1291_AuditReport" time="8.20">
+        </testcase>
+        <testcase name="givenAuditReportIsInApproval_NoNewReportCanBeAdded" classname="compliancequest.SQX_Test_1291_AuditReport" time="5.28">
+        </testcase>
+        <testcase name="givenAuditReportIsRejected_AuditDoesntComplete" classname="compliancequest.SQX_Test_1291_AuditReport" time="6.33">
+        </testcase>
+        <testcase name="givenAuditReportIsSubmittedByNonMember_ItFails" classname="compliancequest.SQX_Test_1291_AuditReport" time="2.90">
+        </testcase>
+        <testcase name="givenAuditReportIsSubmittedFromUIForApproval_ItIsSentForApproval" classname="compliancequest.SQX_Test_1291_AuditReport" time="5.15">
+        </testcase>
+        <testcase name="givenAuditReportIsSubmittedFromUI_ItIsPublished" classname="compliancequest.SQX_Test_1291_AuditReport" time="5.02">
+        </testcase>
+        <testcase name="givenAuditMemberWhoDoesntOwnFinding_CanPublishReport" classname="compliancequest.SQX_Test_1291_AuditReport" time="12.13">
+        </testcase>
+        <testcase name="givenAuditStatusStageAsOpenInProgress_whenSubmitForApprovalIsChecked_thenAppropriateStatusStageIsSet" classname="compliancequest.SQX_Test_1291_AuditReport" time="2.31">
+        </testcase>
+        <testcase name="givenAudit_ReportCanBeAddedOnlyIfInProgress" classname="compliancequest.SQX_Test_1291_AuditReport" time="4.86">
+        </testcase>
+        <testcase name="givenAnAuditProgram_whenAuditsAreCreatedProgramIsNotCloned" classname="compliancequest.SQX_Test_2053_Audit_Program" time="6.53">
+        </testcase>
+        <testcase name="givenProgramIsInApproval_AuditCantBeModifiedAddedOrDeleted" classname="compliancequest.SQX_Test_1176_AuditIsLocked_APrgmInApv" time="4.17">
+        </testcase>
+        <testcase name="givenACurrentAuditCriteriaDocumentAndAnActiveAuditProgramAndAudit_WhenAuditIsScheduled_AllAuditCriteriaRequirementsAreAddedInAudit" classname="compliancequest.SQX_Test_2505_SpecifyCriteriaDocument" time="7.53">
+        </testcase>
+        <testcase name="givenACurrentAuditCriteriaDocumentAndAudit_WhenAuditIsScheduled_AllAuditCriteriaRequirementAreAddedInAudit" classname="compliancequest.SQX_Test_2505_SpecifyCriteriaDocument" time="3.22">
+        </testcase>
+        <testcase name="givenAnActiveAuditProgramAndAudit_WhenAuditIsScheduled_AllAuditScopesAreAddedInAudit" classname="compliancequest.SQX_Test_2505_SpecifyCriteriaDocument" time="5.57">
+        </testcase>
+        <testcase name="givenAuditCriteriaIsBeingReferredByActiveAudit_WhenDocIsPreExpired_NoErrorIsPresented" classname="compliancequest.SQX_Test_2505_SpecifyCriteriaDocument" time="2.81">
+        </testcase>
+        <testcase name="whenReferedByActiveAuditProgram_ThenAuditCriteriaCannotBeObsolete" classname="compliancequest.SQX_Test_2505_SpecifyCriteriaDocument" time="1.88">
+        </testcase>
+        <testcase name="givenACAPARecordIsDeleted_WhenSearchedByItsName_ItsRestoredRecordIsShown" classname="compliancequest.SQX_Test_75_AuditTrailReport" time="6.83">
+        </testcase>
+        <testcase name="givenAccountRecordWhenAuditTrailReportIsGeneratedForAccount_ThenReportIsGeneratedAndItsChildrenAreIncluded" classname="compliancequest.SQX_Test_75_AuditTrailReport" time="5.38">
+        </testcase>
+        <testcase name="givenPersonnelObectTypeAndDateRangeProvided_GenerateReportPerformed_ReportIsGeneratedWithoutErrors" classname="compliancequest.SQX_Test_75_AuditTrailReport" time="3.82">
+        </testcase>
+        <testcase name="given_ACAPARecordIsSelected_ItsHistoryIsQueried" classname="compliancequest.SQX_Test_75_AuditTrailReport" time="4.04">
+        </testcase>
+        <testcase name="given_ACAPARecordIsSelected_ItsOrginalRecordNumberIsQueried" classname="compliancequest.SQX_Test_75_AuditTrailReport" time="3.95">
+        </testcase>
+        <testcase name="given_ANCRecordIsAuditSelected_ItsChildrenAreIncluded" classname="compliancequest.SQX_Test_75_AuditTrailReport" time="6.83">
+        </testcase>
+        <testcase name="given_ARecordIsCreated_AuditTrailIsGeneratedCorrectly" classname="compliancequest.SQX_Test_75_AuditTrailReport" time="9.85">
+        </testcase>
+        <testcase name="givenAduditProgram_WhenAduditProgramIsClosed_AduditProgramIsClosedSuccessfully" classname="compliancequest.SQX_Test_2461_Audit_Program" time="0.78">
+        </testcase>
+        <testcase name="givenAduditProgram_WhenAduditProgramIsVoided_AduditProgramIsVoidedSuccessfully" classname="compliancequest.SQX_Test_2461_Audit_Program" time="0.55">
+        </testcase>
+        <testcase name="givenAduditProgram_WhenAduditProgramScopeIsCreatedWithAuditCriteriaDocument_InsertionIsSuccessfull" classname="compliancequest.SQX_Test_2461_Audit_Program" time="1.57">
+        </testcase>
+        <testcase name="givenAuditProgramInOpenOrVoidOrClosedStatusWithAuditProgramScope_WhenUserTriesToDeleteAuditProgramScope_ThenErrorMessageIsThrown" classname="compliancequest.SQX_Test_2461_Audit_Program" time="3.51">
+        </testcase>
+        <testcase name="givenAuditProgramWithClosedStatus_WhenUserTriesToClosedAuditProgram_ThenGiveValidationErrorMessage" classname="compliancequest.SQX_Test_2461_Audit_Program" time="0.69">
+        </testcase>
+        <testcase name="givenAuditProgramWithClosedStatus_WhenUserTriesToVoidAuditProgram_ThenGiveValidationErrorMessage" classname="compliancequest.SQX_Test_2461_Audit_Program" time="0.69">
+        </testcase>
+        <testcase name="givenAuditProgramWithDraftStatus_WhenUserTriesToCloseAuditProgram_ThenGiveValidationErrorMessage" classname="compliancequest.SQX_Test_2461_Audit_Program" time="0.28">
+        </testcase>
+        <testcase name="givenAuditProgramWithPlanApproval_WhenUserTriesToCloseAuditProgram_ThenGiveValidationErrorMessage" classname="compliancequest.SQX_Test_2461_Audit_Program" time="0.36">
+        </testcase>
+        <testcase name="givenAuditProgramWithPlanApproval_WhenUserTriesToVoidAuditProgram_ThenGiveValidationErrorMessage" classname="compliancequest.SQX_Test_2461_Audit_Program" time="0.35">
+        </testcase>
+        <testcase name="givenAuditProgramWithVoidOrClosedStatus_WhenUserTriesToEditAuditProgram_ThenGiveValidationErrorMessage" classname="compliancequest.SQX_Test_2461_Audit_Program" time="1.26">
+        </testcase>
+        <testcase name="givenAuditProgramWithVoidStatus_WhenUserTriesToClosedAuditProgram_ThenGiveValidationErrorMessage" classname="compliancequest.SQX_Test_2461_Audit_Program" time="0.54">
+        </testcase>
+        <testcase name="givenAuditProgramWithVoidStatus_WhenUserTriesToVoidAuditProgram_ThenGiveValidationErrorMessage" classname="compliancequest.SQX_Test_2461_Audit_Program" time="0.59">
+        </testcase>
+        <testcase name="givenAnAudit_WhenAuditIsInProgress_AuditCanBeCheckedOut" classname="compliancequest.SQX_Test_2580_Audit_Checkin_Checkout" time="0.00">
+        </testcase>
+        <testcase name="givenAnAudit_WhenAuditIs_CheckedOut_AuditCanBeCheckedIn" classname="compliancequest.SQX_Test_2580_Audit_Checkin_Checkout" time="3.62">
+        </testcase>
+        <testcase name="givenAuditWithACriteriaDocument_WhenAnAuditIsInitiated_ThenCriteriaDocumentContentIsTransferredToAudit" classname="compliancequest.SQX_Test_2580_Audit_Checkin_Checkout" time="10.23">
+        </testcase>
+        <testcase name="givenAuditWithACriteriaDocument_WhenAnAuditIsInitiated_ThenCriteriaDocumentContentIsTransferredToAuditOrderByStandard" classname="compliancequest.SQX_Test_2580_Audit_Checkin_Checkout" time="12.22">
+        </testcase>
+        <testcase name="givenAuditWithSpreadsheetId_WhenContentIsDeleted_ItIsPrevented" classname="compliancequest.SQX_Test_2580_Audit_Checkin_Checkout" time="5.03">
+        </testcase>
+        <testcase name="givenAuditWithoutCriteriaDoc_WhenAuditIsCheckedOut_ThenErrorIsThrown" classname="compliancequest.SQX_Test_2580_Audit_Checkin_Checkout" time="1.10">
+        </testcase>
+        <testcase name="givenOpenAuditReferingObsoleteCriteria_WhenAuditIsCheckedOut_ThenErrorIsThrown" classname="compliancequest.SQX_Test_2580_Audit_Checkin_Checkout" time="3.76">
+        </testcase>
+        <testcase name="getCreateUpdateRecord_ResultTypeFieldsEmpty_SaveFailed" classname="compliancequest.SQX_Test_Audit_CheckList" time="0.00">
+        </testcase>
+        <testcase name="givenAnAuditWithNumberOfTargets_WhenNewChecklistIsAdded_AllAuditTargetsAreTransferedToAuditChecklistTarget" classname="compliancequest.SQX_Test_Audit_CheckList" time="6.20">
+        </testcase>
+        <testcase name="whenAuditReportIsCompleted_thenAppropriateStageIsSet" classname="compliancequest.SQX_Test_AuditReportComplete_AUD000020" time="3.35">
+        </testcase>
+    </testsuite>
+</testsuites>
