@@ -4,7 +4,7 @@
 	<testClassName>compliancequest.SQX_Test_10348_Doc_Collab_Error</testClassName>
 	<testClassName>compliancequest.SQX_Test_10377_Doc_Record_Activities</testClassName>
 	<testClassName>compliancequest.SQX_Test_10515_Job_Function_Progress</testClassName>
-	<testClassName>compliancequest.SQX_Test_10744_Controlled_Document</testClassName>
+	<testClassName>compliancequest.</testClassName>
 	<testClassName>compliancequest.SQX_Test_1139_Audit_With_Finding</testClassName>
 	<testClassName>compliancequest.SQX_Test_1159_CreateDoc</testClassName>
 	<testClassName>compliancequest.SQX_Test_1202_Review</testClassName>
