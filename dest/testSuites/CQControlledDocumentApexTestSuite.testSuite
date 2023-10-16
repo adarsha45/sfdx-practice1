@@ -8,7 +8,7 @@
 	<testClassName>compliancequest.SQX_Test_1139_Audit_With_Finding</testClassName>
 	<testClassName>compliancequest.SQX_Test_1159_CreateDoc</testClassName>
 	<testClassName>compliancequest.SQX_Test_1202_Review</testClassName>
-	<testClassName>compliancequest.SQX_Test_1203_ContentLock</testClassName>
+	<testClassName>compliancequest.fdf</testClassName>
 	<testClassName>compliancequest.SQX_Test_1204_Related_Controlled_Doc</testClassName>
 	<testClassName>compliancequest.SQX_Test_1240_Revision_History</testClassName>
 	<testClassName>compliancequest.SQX_Test_1248_RelatedValidation</testClassName>
